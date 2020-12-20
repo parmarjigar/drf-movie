@@ -1,0 +1,4 @@
+- Migration files are not included so please run migration(s) command.
+- As the requirement mentioned that only Admin can upload the movies, so kindly pass the authorization while making request.
+- 2 APIs are created one for uploading an media and second for retrieving media details based on id.
+- once you setup the project please go to localhost.8000/swagger/ to get the list of all APIs and it details.

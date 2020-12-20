@@ -13,5 +13,5 @@ class UploadMediaAPI(CreateAPIView):
 
 class GetMediaAPI(RetrieveAPIView):
     queryset = MediaFile.objects.all()
-    permission_classes = [IsAdminUser]
+    permission_classes = [AllowAny]
     serializer_class = GetMediaSerializer
